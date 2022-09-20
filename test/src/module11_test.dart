@@ -1,5 +1,5 @@
 import 'package:modulo11/src/errors/failure.dart';
-import 'package:modulo11/src/module11.dart';
+import 'package:modulo11/src/module11_core.dart';
 import 'package:test/test.dart';
 
 void main() {
