@@ -3,7 +3,7 @@ import 'package:modulo11/src/errors/failure_impl.dart';
 class Module11 {
   static int verifyDigit(String key) {
     if (key.length < 43) {
-      throw FailureImpl(message: 'the key must contain 43 characters.');
+      throw FailureImpl('the key must contain 43 characters.');
     }
 
     const multipliers = '4329876543298765432987654329876543298765432';
